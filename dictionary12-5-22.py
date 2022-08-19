@@ -1,0 +1,26 @@
+Python 3.7.4 (tags/v3.7.4:e09359112e, Jul  8 2019, 19:29:22) [MSC v.1916 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> d={"one":1,"two":2}
+>>> d.update({"three":3})
+>>> d
+{'one': 1, 'two': 2, 'three': 3}
+>>> d.clear()
+>>> print(d)
+{}
+>>> a=()
+>>> type(a)
+<class 'tuple'>
+>>> a=(1,)
+>>> type(a)
+<class 'tuple'>
+>>> help(d)
+
+>>> a={}
+>>> a=d.copy()
+>>> print(a)
+{}
+>>> d={"one":1,"two":2}
+>>> a=d.copy()
+>>> a
+{'one': 1, 'two': 2}
+>>> 
